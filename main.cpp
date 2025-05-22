@@ -17,7 +17,7 @@ void printMenu() {
     std::cout << "3. Undo\n";
     std::cout << "4. Redo\n";
     std::cout << "5. Show Document\n";
-    std::cout << "6. View Branch History\n";  // fixed typo
+    std::cout << "6. View Branch History\n";  
     std::cout << "7. Exit\n";
     std::cout << "Choose an option: ";
 }
@@ -33,7 +33,7 @@ int main() {
     while (true) {
         printMenu();
         std::cin >> choice;
-        std::cin.ignore(); // Ignore newline
+        std::cin.ignore(); 
 
         switch (choice) {
         case 1: {
